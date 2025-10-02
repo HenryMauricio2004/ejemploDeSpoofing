@@ -5,6 +5,6 @@ import retrofit2.http.POST
 import retrofit2.Response
 
 interface ApiService {
-    @POST(".")
+    @POST("b500efb1-3eff-4a4f-947b-33c80c362877")
     suspend fun login(@Body request: LoginRequest): Response<Unit>
 }

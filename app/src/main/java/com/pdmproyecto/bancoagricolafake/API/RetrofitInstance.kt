@@ -6,7 +6,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitInstance {
-    private const val URL = "https://webhook.site/#!/view/b500efb1-3eff-4a4f-947b-33c80c362877/960fbc9b-9d54-4d7d-b610-d7d9f71389cf/1"
+    private const val URL = "https://webhook.site/"
 
     val client = OkHttpClient.Builder()
         .addInterceptor(HttpLoggingInterceptor().apply {
